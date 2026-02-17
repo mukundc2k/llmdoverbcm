@@ -1,21 +1,26 @@
-# Do LLMs Model Human Linguistic Variation?
-### A Case Study in Hindi-English Verb Code-Mixing
+<p align="center">
+  <img src="assets/EACL2026_alt-logo_blue.png" alt="EACL 2026 Logo" height="80"/>
+</p>
 
-**Mukund Choudhary\***, **Madhur Jindal\***, Gaurja Aeron, Monojit Choudhury  
-MBZUAI · IIT Gandhinagar  
-*Equal contribution*
+# Do LLMs Model Human Linguistic Variation? A Case Study in Hindi-English Verb Code-Mixing
 
-**EACL 2026** · [[Paper]](https://arxiv.org/abs/2503.21484) <!-- update link when live -->
+**Mukund Choudhary\***, **Madhur Jindal\***, Gaurja Aeron, Monojit Choudhury
 
 ---
 
-## Overview
+## 📄 Paper
+
+**Published at EACL 2026:** [arXiv preprint](https://arxiv.org/abs/2503.21484)
+
+---
+
+## 🔍 Overview
 
 We ask: **do LLMs model human linguistic variation?** We test this on Hindi-English (*Hinglish*) verb code-mixing — a phenomenon where native speakers can replace a Hindi verb with an English nominal followed by the light verb *karna* ('do'), yet show unexplained, systematic preferences about which verbs to mix. We compare human acceptability ratings on 30 verb pairs to LLM perplexity ratios from 7 open-weight models, and find that current LLMs do not reliably recover native speaker preferences — even with supervision.
 
 ---
 
-## Repository Contents
+## 📁 Repository Contents
 
 This repository releases the experimental data described in the paper. All files are in `main_data/`.
 
@@ -95,7 +100,16 @@ Models: `google_gemma-3-1b-pt`, `google_gemma-3-4b-pt`, `google_gemma-3-12b-pt`,
 
 ---
 
-## Citation
+## 🤝 Contact
+
+Mukund Choudhary — [mukund.choudhary@mbzuai.ac.ae](mailto:mukund.choudhary@mbzuai.ac.ae)  
+Madhur Jindal — [madhur.jindal@mbzuai.ac.ae](mailto:madhur.jindal@mbzuai.ac.ae)
+
+Questions about the data or methodology are welcome. If you use this dataset or build on this work, we'd love to hear from you.
+
+---
+
+## ✍️ Citation
 
 ```bibtex
 @inproceedings{choudhary2025llms,
@@ -105,15 +119,6 @@ Models: `google_gemma-3-1b-pt`, `google_gemma-3-4b-pt`, `google_gemma-3-12b-pt`,
   year      = {2026},
 }
 ```
-
----
-
-## Contact
-
-Mukund Choudhary — [mukund.choudhary@mbzuai.ac.ae](mailto:mukund.choudhary@mbzuai.ac.ae)  
-Madhur Jindal — [madhur.jindal@mbzuai.ac.ae](mailto:madhur.jindal@mbzuai.ac.ae)
-
-Questions about the data or methodology are welcome. If you use this dataset or build on this work, we'd love to hear from you.
 
 ---
 
