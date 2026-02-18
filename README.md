@@ -12,13 +12,13 @@
 
 ## 📄 Paper
 
-**Published at EACL 2026:** [arXiv preprint](https://arxiv.org/abs/2503.21484)
+**Published at EACL 2026:** [paper, poster, and video!](https://drive.google.com/drive/folders/1UiipNERjKUvjC3ho4cw1HXXmTvZpDZxN?usp=drive_link)
 
 ---
 
 ## 🔍 Overview
 
-We ask: **do LLMs model human linguistic variation?** We test this on Hindi-English (*Hinglish*) verb code-mixing — a phenomenon where native speakers can replace a Hindi verb with an English nominal followed by the light verb *karna* ('do'), yet show unexplained, systematic preferences about which verbs to mix. We compare human acceptability ratings on 30 verb pairs to LLM perplexity ratios from 7 open-weight models, and find that current LLMs do not reliably recover native speaker preferences — even with supervision.
+We ask: **do LLMs model human linguistic variation?** and test this on Hindi-English (*Hinglish*) verb code-mixing. It is interesting because native speakers can replace a Hindi verb with an English noun followed by the light verb *karna* ('do') and keep the rest of the sentence intact and grammatically accurate. However, they show unexplained, systematic preferences about which verbs to mix and which ones are awkward to. We compare native Hinglish-speaking bilinguals' acceptability ratings for 30 verb pairs to LLM perplexity ratios from 7 open-weight models (across sizes, families, and pre-training mixes) and find that current LLMs do not reliably model native speaker preferences and variation.
 
 ---
 
